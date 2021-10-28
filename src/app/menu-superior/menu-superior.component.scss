@@ -1,12 +1,59 @@
 .menu-superior {
-    .breadcrumb {
-        .item {
-            text-decoration: none;
-            color: rgb(112, 112, 112);
-        }
+  .breadcrumb {
+    .item {
+      text-decoration: none;
+      color: rgb(112, 112, 112);
     }
-    .titleMenuSup{
+  }
+  .titleMenuSup {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .conteiner-notificacao {
+    position: relative;
+    .notificacao {
+      position: absolute;
+      right: 2px;
+      width: 5px;
+      height: 5px;
+      background: red;
+      padding: 7px;
+      border-radius: 50%;
+      font-size: 10px;
+
+      div {
+        position: absolute;
+        top: -1px;
+        right: 4px;
+        color: #ffffff;
         font-weight: bold;
-        margin-bottom: 0;
+      }
     }
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .botao-viacredi {
+    border: 1px solid #1b5c7c;
+    color: #1b5c7c;
+    border-radius: 40px;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 20px;
+  }
+
+  .avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

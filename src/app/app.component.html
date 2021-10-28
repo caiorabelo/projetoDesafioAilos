@@ -1,14 +1,27 @@
+<!-- CONTAINER PRINCIPAL -->
 <div class="container-fluid">
   <div class="row">
+    <!-- MENU LARAVEL -->
     <div class="col-md-1 p-0">
       <app-menu-lateral></app-menu-lateral>
     </div>
+    <!-- FIM MENU LARAVEL -->
     <div class="col-md-11 p-0 bg-gray position-relative">
+      <!-- MENU SUPERIOR -->
       <app-menu-superior></app-menu-superior>
+
+      <!-- PROGRESSO ADMISSÃO -->
       <app-progresso etapa="1"></app-progresso>
-      <app-titular-cpf (aoBuscar)="passarCpf($event)"></app-titular-cpf>
-      <app-card-item [cooperador]="cooperador"></app-card-item>
+
+      <!-- INPUT E BOTÃO COOPERADOR -->
+      <app-titular-cpf (aoBuscar)="recebeCooperador($event)"></app-titular-cpf>
+
+      <!-- CARTÕES COM INFORMAÇÕES DO COOPERADOR -->
+      <app-cartao [cooperador]="cooperador" [ativo]="ativo"></app-cartao>
+
+      <!-- MENU INFERIOR -->
       <app-menu-inferior [cooperador]="cooperador"></app-menu-inferior>
     </div>
   </div>
 </div>
+<!-- FIM CONTAINER PRINCIPAL -->

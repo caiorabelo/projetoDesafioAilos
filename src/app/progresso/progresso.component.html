@@ -1,33 +1,43 @@
+<!-- PROGRESSO ADMISSÃO -->
 <div class="progresso d-flex justify-content-center">
-    <div [ngClass]="{'disabled' : etapa < 1, 'etapa' : true}">
-        <div class="alinhador">
-            <div class="marcador">
-            </div>
-        </div>
-        <h6 class="titleForm">Início</h6>
+  <!-- 1º ETAPA -->
+  <div [ngClass]="{'disabled' : etapa < 1, 'etapa' : true}">
+    <div class="alinhador">
+      <div class="marcador">
+      </div>
     </div>
-    <div [ngClass]="{'disabled' : etapa < 2, 'etapa' : true}">
-        <div class="alinhador">
-            <div class="linha"></div>
-            <div class="marcador">
-            </div>
-        </div>
-        <h6 class="titleForm">Documentos</h6>
+    <h6 class="titleForm">Início</h6>
+  </div>
+  <!-- FIM 1º ETAPA -->
+  <!-- 2º ETAPA -->
+  <div [ngClass]="{'disabled' : etapa < 2, 'etapa' : true}">
+    <div class="alinhador">
+      <div class="linha"></div>
+      <div class="marcador">
+      </div>
     </div>
-    <div [ngClass]="{'disabled' : etapa < 3, 'etapa' : true}">
-        <div class="alinhador">
-            <div class="linha"></div>
-            <div class="marcador">
-            </div>
-        </div>
-        <h6 class="titleForm">Dados cadastrais</h6>
+    <h6 class="titleForm">Documentos</h6>
+  </div>
+  <!-- FIM 2º ETAPA -->
+  <!-- 3º ETAPA -->
+  <div [ngClass]="{'disabled' : etapa < 3, 'etapa' : true}">
+    <div class="alinhador">
+      <div class="linha"></div>
+      <div class="marcador">
+      </div>
     </div>
-    <div [ngClass]="{'disabled' : etapa < 4, 'etapa' : true}">
-        <div class="alinhador">
-            <div class="linha"></div>
-            <div class="marcador">
-            </div>
-        </div>
-        <h6 class="titleForm">Admissão</h6>
+    <h6 class="titleForm">Dados cadastrais</h6>
+  </div>
+  <!-- FIM 3º ETAPA -->
+  <!-- 4º ETAPA -->
+  <div [ngClass]="{'disabled' : etapa < 4, 'etapa' : true}">
+    <div class="alinhador">
+      <div class="linha"></div>
+      <div class="marcador">
+      </div>
     </div>
+    <h6 class="titleForm">Admissão</h6>
+  </div>
+  <!-- FIM 4º ETAPA -->
 </div>
+<!-- FIM PROGRESSO ADMINISSÃO -->

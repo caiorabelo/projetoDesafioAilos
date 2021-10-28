@@ -6,9 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./menu-inferior.component.scss']
 })
 export class MenuInferiorComponent implements OnInit {
-  @Input() cooperador: any = 'caio';
+  // RECEBE O COOPERADOR
+  @Input() cooperador: any;
 
   constructor() { }
   ngOnInit() {
+    this.cooperador = '';
   }
 }

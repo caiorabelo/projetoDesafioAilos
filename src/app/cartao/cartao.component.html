@@ -1,4 +1,6 @@
-<div  class="d-flex justify-content-start" style="margin-left: 30px" *ngIf="cooperador!=''">
+<!-- CARTÕES COM COM AS INFORMAÇÕES DO COOPERADOR -->
+<div class="d-flex justify-content-start" style="margin-left: 30px" *ngIf="cooperador!=''">
+  <!-- 1º CARTÃO -->
   <div class="cooperador-infor">
     <h6>Situação cadastral do CPF</h6>
     <span class="text-muted">Consulta na Receita Federal</span>
@@ -21,6 +23,8 @@
       </div>
     </div>
   </div>
+  <!-- FIM DO 1º CARTÃO -->
+  <!-- 2º CARTÃO -->
   <div class="cooperador-infor">
     <h6>Conta aplicação</h6>
     <span class="text-muted">Cooperativa Viacredi</span>
@@ -34,9 +38,11 @@
       </div>
     </div>
     <div class="card-duplicacao">
-        Duplicar conta
+      Duplicar conta
     </div>
   </div>
+  <!-- FIM DO 2º CARTÃO -->
+  <!-- 3º CARTÃO -->
   <div class="cooperador-infor">
     <h6>Conta corrente</h6>
     <span class="text-muted">Cooperativa Viacred</span>
@@ -51,6 +57,14 @@
     </div>
     <div class="card-duplicacao">
       Duplicar conta
-  </div>
+    </div>
   </div>
 </div>
+<!-- FIM DO 3º CARTÃO -->
+<!-- CARTÃO COM MENSAGEM DE COOPERADOR NÃO ENCONTRADO -->
+<div class="d-flex justify-content-start" style="margin-left: 30px" *ngIf="ativo">
+  <div class="usuario-inexistente">
+    Cooperador não encontrado!
+  </div>
+</div>
+<!-- FIM DA MENSAGEM DE COOPERADOR NÃO ENCONTRADO -->
