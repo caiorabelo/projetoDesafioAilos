@@ -1,0 +1,14 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 p-0">
+      <app-menu-lateral></app-menu-lateral>
+    </div>
+    <div class="col-md-11 p-0 bg-gray position-relative">
+      <app-menu-superior></app-menu-superior>
+      <app-progresso etapa="1"></app-progresso>
+      <app-titular-cpf (aoBuscar)="passarCpf($event)"></app-titular-cpf>
+      <app-card-item [cooperador]="cooperador"></app-card-item>
+      <app-menu-inferior [cooperador]="cooperador"></app-menu-inferior>
+    </div>
+  </div>
+</div>

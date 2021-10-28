@@ -1,0 +1,46 @@
+.progresso {
+    .etapa {
+        &.disabled{
+            .titleForm{
+                color: #d0d1d1!important;
+            }
+            .alinhador{
+                .linha{
+                    background-color: #d0d1d1;
+                }
+                .marcador{
+                    border: 3.5px solid #d0d1d1;
+                    background-color: #d0d1d1;
+                }
+            }
+        }
+        text-align: center;
+        width: 150px;
+        .titleForm {
+            margin-top: 20px;
+            color: #1b5c7c;
+        }
+        .alinhador {
+            position: relative;
+            display: inline-block;
+            .linha {
+                position: absolute;
+                top: 9px;
+                right: 0;
+                width: 150px;
+                height: 3.5px;
+                background-color: #1b5c7c;
+            }
+            .marcador {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 20px;
+                height: 20px;
+                background-color: #e6eef1;
+                border: 3.5px solid #1b5c7c;
+                border-radius: 50%;
+            }
+        }
+    }
+}

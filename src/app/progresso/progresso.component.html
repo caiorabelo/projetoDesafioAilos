@@ -1,0 +1,33 @@
+<div class="progresso d-flex justify-content-center">
+    <div [ngClass]="{'disabled' : etapa < 1, 'etapa' : true}">
+        <div class="alinhador">
+            <div class="marcador">
+            </div>
+        </div>
+        <h6 class="titleForm">Início</h6>
+    </div>
+    <div [ngClass]="{'disabled' : etapa < 2, 'etapa' : true}">
+        <div class="alinhador">
+            <div class="linha"></div>
+            <div class="marcador">
+            </div>
+        </div>
+        <h6 class="titleForm">Documentos</h6>
+    </div>
+    <div [ngClass]="{'disabled' : etapa < 3, 'etapa' : true}">
+        <div class="alinhador">
+            <div class="linha"></div>
+            <div class="marcador">
+            </div>
+        </div>
+        <h6 class="titleForm">Dados cadastrais</h6>
+    </div>
+    <div [ngClass]="{'disabled' : etapa < 4, 'etapa' : true}">
+        <div class="alinhador">
+            <div class="linha"></div>
+            <div class="marcador">
+            </div>
+        </div>
+        <h6 class="titleForm">Admissão</h6>
+    </div>
+</div>

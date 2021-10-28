@@ -1,0 +1,43 @@
+.cooperador-infor {
+  padding: 20px;
+  background-color: #fff;
+  width: 270px;
+  margin: 30px 15px 0 0;
+  border: solid 1px #cbd0d0;
+  border-radius: 2px;
+
+  h6 {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    line-height: 10px;
+  }
+  span {
+    font-size: 0.8rem;
+  }
+  .item {
+    display: flex;
+    margin-top: 25px;
+    .icone {
+      padding: 0 20px 0 2px;
+      .situacao-ativo{
+        color: #65bf95;
+      }
+    }
+  }
+  .titulo {
+    font-size: 0.8rem;
+    line-height: 10px;
+  }
+  .nome {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .card-duplicacao {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #437cb7;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+}

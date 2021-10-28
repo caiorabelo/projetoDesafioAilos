@@ -1,0 +1,28 @@
+{
+  "transferencias": [
+    {
+      "id": "1",
+      "nome": "Caio Rabelo Pereria",
+      "cpf": "60178448303",
+      "situacao": "regular",
+      "conta_aplicacao": "54434-5",
+      "conta_corrente": "184346-2"
+    },
+    {
+      "id": "2",
+      "nome": "José Almeida Santos",
+      "cpf": "98734509834",
+      "situacao": "regular",
+      "conta_aplicacao": "74534-1",
+      "conta_corrente": "880446-2"
+    },
+    {
+      "id": "3",
+      "nome": "Ricardo Sousa Mendes",
+      "cpf": "86734549814",
+      "situacao": "regular",
+      "conta_aplicacao": "94231-1",
+      "conta_corrente": "183429-2"
+    }
+  ]
+}

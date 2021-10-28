@@ -1,0 +1,23 @@
+.menu-lateral{
+    background: #1b5c7c;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .item{
+        color: rgb(169, 169, 169);
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 30px;
+        &.active, &:hover{
+            color: #fff;
+        }
+    }
+    .azul{
+      color:blue;
+    }
+    .active{
+      color:#fff ;
+    }
+}

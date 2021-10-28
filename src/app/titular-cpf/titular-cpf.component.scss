@@ -1,0 +1,31 @@
+.titular-cpf {
+  margin: 10px 0 0 30px;
+  p {
+    font-size: 0.8rem;
+  }
+  .campo-botao {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-weight: bold;
+    }
+    input {
+      outline: none;
+      max-width: 270px;
+      width: 100%;
+    }
+    button {
+      margin-left: 15px;
+      padding: 5px 20px;
+      border: 0;
+      background-color: #1b5c7c;
+      color: #fff;
+      border-radius: 2px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      &:hover{
+      opacity: 40%;
+    }
+    }
+  }
+}

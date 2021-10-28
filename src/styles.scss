@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+.bg-gray{
+    background: #e6eef1;
+}
+.bg-blue-menu{
+    background: #1b5c7c;
+}
+
+.btnTheme{
+    background: #1b5c7c;
+    border: 2px solid #1b5c7c;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.btnThemeOutline{
+    background: transparent;
+    color: #1b5c7c;
+    padding: 10px 20px;
+    border: 2px solid #1b5c7c;
+}
+.mr-2{
+    margin-right: 20px;
+}
